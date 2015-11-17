@@ -42,7 +42,7 @@ namespace High_Low_Card_Game
                     }
                     Console.WriteLine("");
                     ++turn;
-                    Console.ReadKey();
+                    //Console.ReadKey();
                 } while (result != -1);
                 Control.FinishedPlaying(player1, player2);
                 Console.ReadKey();
